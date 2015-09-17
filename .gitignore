@@ -1,2 +1,5 @@
+# IDE specific folders
+.idea
+
 node_modules
 bundle

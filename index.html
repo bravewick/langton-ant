@@ -2,12 +2,26 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Langton's Ant</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/custom.css"/>
 </head>
 <body>
-    <button onclick="startSimulation()">start</button>
-    <button onclick="stopSimulation()">stop</button>
-    <button onclick="ant.move()">step</button>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 controls">
+                <div class="btn-group" role="group" aria-label="Ant controls">
+                    <button type="button" class="btn-primary" onclick="startSimulation()">start</button>
+                    <button type="button" class="btn-secondary" onclick="stopSimulation()">stop</button>
+                    <button type="button" class="btn-secondary" onclick="ant.move()">step</button>
+                </div>
+            </div>
+            <div class="col-lg-9 board">
+
+            </div>
+        </div>
+    </div>
+
 <!-- <canvas id="canvas" width="800" height="800"></canvas> -->
 <!-- <div id="canvas">
 

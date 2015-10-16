@@ -17,7 +17,7 @@ export class Canvas {
         canvas.height = height;
         canvas.id = 'canvas';
         this.ctx = canvas.getContext('2d');
-        document.body.appendChild(canvas);
+        document.querySelector('.board').appendChild(canvas);
         this.activeColor = activeColor;
         this.inactiveColor = inactiveColor;
         this.clearAll();

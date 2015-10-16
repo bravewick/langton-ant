@@ -1,5 +1,6 @@
 # IDE specific folders
 .idea
 
+bower_components
 node_modules
 bundle
